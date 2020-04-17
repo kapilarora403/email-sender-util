@@ -12,7 +12,7 @@ export class AppService {
       from: 'info@tripnotision.com',
       subject: 'Test subject',
       text: 'This is test text',
-      html: '<strong>This is test html</strong>',
+      html: '<strong>Tell me what to do ?</strong>',
     };
     sgMail.send(msg);
 
